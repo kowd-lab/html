@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<!--are ang style-->
     <style>
 .gallery img {
   width: 30%;
@@ -31,15 +31,20 @@
   position: absolute;
   z-index: 9999;
   top: 0;
-  left: 0;
+  left: 10%;
   width: 80vw;
   height: 80vh;
   background-size: contain;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   background-color: black;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
     </style>
+<!--are ang dulo-->
+
 <h1 style="background-color:DodgerBlue;">My Weblog</h1>
 <body onload="getPics()">
     <div class="container">
@@ -65,6 +70,7 @@
         </ol>
       </div>
 
+<!--javascript to-->
     <script>
         function getPics() {} //just for this demo
 const imgs = document.querySelectorAll('.gallery img');
@@ -77,5 +83,6 @@ imgs.forEach(img => {
   });
 });
     </script>
+<!--hanggang dito ang javascript-->
 </body>
 </html>
